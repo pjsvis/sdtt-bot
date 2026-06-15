@@ -1,0 +1,9 @@
+BOT: State the nature of your physical irregularity.
+USER: I have a sore thumb
+BOT: Where does the tension from that sore thumb travel when you close your hand?
+USER: the ache goes away when I clench my hand
+BOT: When you clench your hand, which specific joint or region experiences the greatest release of tension?
+USER: just th sore nuckle, second from the thumb tip, on the left hand
+BOT: When that region releases tension, which adjacent segment of your hand or forearm experiences the greatest increase in load?
+USER: - it seems isolated to that joint. just a slight ache when moved
+BOT: When that joint moves, which adjacent segment of your hand or forearm experiences the greatest increase in load?

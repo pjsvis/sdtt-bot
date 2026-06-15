@@ -15,6 +15,10 @@ check:
 	bun scripts/reg-sync.ts --all --fix
 	bun scripts/prototype-test.ts
 
+ci:
+	just check
+	just eval-nano
+
 # Agent‑friendly TD helpers
 
 td-claim:
@@ -31,3 +35,12 @@ td-block:
 
 td-esc:
 	bun scripts/td-esc.ts
+
+sdtt question="":
+	bun scripts/sdtt-advice.ts "{{question}}"
+
+eval-nano:
+	bun scripts/eval-nano-tests.ts
+
+chat:
+	bun scripts/chat-cli.ts

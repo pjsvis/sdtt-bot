@@ -18,7 +18,7 @@ sdtt-bot/
 ├── decisions/
 │   └── dec001_intake_logic.md     # Rationale for "physical glitch" and threat de‑escalation
 ├── playbooks/
-│   └── engine_sleeve.txt          # The master text prompt configuration for local model deployment
+│   └── engine_sleeve.md          # The master text prompt configuration for local model deployment
 └── docs/
     ├── protocol_library.md        # 5mm experiments, baseline tracking, and structural vectors
     └── bibliography.md            # The narrativised, authority-cached source database

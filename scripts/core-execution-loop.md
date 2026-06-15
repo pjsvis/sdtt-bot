@@ -1,12 +1,12 @@
 # Core Execution Loop
 
-- File Ingestion Phase: Read and parse playbooks/engine_sleeve.txt, tests/eval_judge_sleeve.txt, and tests/test_cases.json asynchronously.
+- File Ingestion Phase: Read and parse playbooks/engine_sleeve.md, tests/eval_judge_sleeve.txt, and tests/test_cases.json asynchronously.
 
 - Simulation Loop: Iterate cleanly through the collection of test cases.
 
 - Inference Run 1 (The Subject):
 
-- Initialize a system context using the content of engine_sleeve.txt.
+- Initialize a system context using the content of engine_sleeve.md.
 
 - Submit the adversarial TestCase.input as the user message.
 

@@ -17,7 +17,7 @@ To construct a lightweight, high-fidelity local evaluation test runner in TypeSc
 The script must orchestrate two isolated back-to-back inference contexts sequentially per test case:
 
 ```text
-[test_cases.json] ──> Input ──> [Session 1: SDTT-Bot (engine_sleeve.txt)]
+[test_cases.json] ──> Input ──> [Session 1: SDTT-Bot (engine_sleeve.md)]
                                                     │
                                              Model Response
                                                     │
@@ -54,10 +54,10 @@ interface EvalResult {
 
 ### Core Execution Loop
 
-1. **File Ingestion Phase:** Read and parse `playbooks/engine_sleeve.txt`, `tests/eval_judge_sleeve.txt`, and `tests/test_cases.json` asynchronously.
+1. **File Ingestion Phase:** Read and parse `playbooks/engine_sleeve.md`, `tests/eval_judge_sleeve.txt`, and `tests/test_cases.json` asynchronously.
 2. **Simulation Loop:** Iterate cleanly through the collection of test cases.
 3. **Inference Run 1 (The Subject):**
-* Initialize a system context using the content of `engine_sleeve.txt`.
+* Initialize a system context using the content of `engine_sleeve.md`.
 * Submit the adversarial `TestCase.input` as the user message.
 * Capture the string output (`botResponse`).
 

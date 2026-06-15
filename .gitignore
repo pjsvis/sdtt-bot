@@ -6,3 +6,6 @@
 .sidecar-start.sh
 .sidecar-base
 .td-root
+
+# Confidential internal notes – eyes only
+.hush-hush

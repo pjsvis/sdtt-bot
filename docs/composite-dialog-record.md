@@ -12,7 +12,7 @@ Initialize your repository with the following directory tree. This structure kee
 sdtt-bot/
 ├── README.md               # The SDTT Manifest & Core Philosophy
 ├── core/
-│   └── system_prompt.txt   # The master 7-of-9 style system prompt (The Sleeve)
+│   └── system_prompt.md    # The master SDTT system prompt (The Sleeve)
 └── docs/
     ├── lexicon.md          # The FAPT-to-SDTT Translation Matrix
     ├── protocols.md        # The 5mm Bridge & Edinburgh Protocol Sandbox Tests
@@ -106,7 +106,7 @@ This document compiles the actual somatic experiments generated during our debug
 
 ### `docs/bibliography.md`
 
-The authoritative reference core that the 7-of-9 persona uses to back up its responses.
+The authoritative reference core that the SDTT engine uses to back up its responses.
 
 ```markdown
 # SDTT Narrativised Bibliography Core

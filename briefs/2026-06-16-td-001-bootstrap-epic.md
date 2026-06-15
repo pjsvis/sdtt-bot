@@ -7,6 +7,9 @@
 ## What
 Implement and test a minimal prototype of the SDTT‑Bot that can run `just orient`, sync the unified registry, and expose the three `just` commands (`help`, `about`, `orient`).
 
+## Proposed model
+NVIDIA hosted model `nvidia/nemotron-3-nano-30b-a3b:free` – a lightweight, locally‑runnable LLM suitable for text‑only interactions.
+
 ## Why
 Validates the new `justfile` façade, the registry scripts, and the overall agent‑ready process. Provides a concrete target for the next sprint and a reference implementation for future extensions.
 

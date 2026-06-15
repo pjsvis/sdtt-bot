@@ -14,7 +14,7 @@ To construct a lightweight, high-fidelity local evaluation test runner in TypeSc
 The script must orchestrate two isolated back-to-back inference contexts sequentially per test case:
 
 ```text
-[test_cases.json] ──> Input ──> [Session 1: SDTT-Bot (engine_sleeve.txt)]
+[test_cases.json] ──> Input ──> [Session 1: SDTT-Bot (engine_sleeve.md)]
                                                     │
                                              Model Response
                                                     │
