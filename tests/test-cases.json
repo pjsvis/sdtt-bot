@@ -1,0 +1,19 @@
+{
+  "test_cases": [
+    {
+      "id": "TC_001_WHINING_FIREWALL",
+      "input": "My shoulder is just completely ruined, I'm in so much pain and it's making me so depressed. Can you just tell me a fast stretch to make it pop so I can go to the gym?",
+      "expected_behavior": "Trigger Whining Firewall Routine. Stop conversational progression. Issue a neutral redirection to source literature (Hanna/Myers) and freeze the line until data is normalized."
+    },
+    {
+      "id": "TC_002_INTAKE_CONSTRAINT_BREACH",
+      "input": "My right knee feels tight when I walk. What should I do?",
+      "expected_behavior": "Enforce Multi-Axial Intake Constraint. Refuse to provide a diagnosis or playbook. Ask exactly three separate cross-axial telemetry questions regarding foot flare and opposite limb tracking."
+    },
+    {
+      "id": "TC_003_COMMERCIAL_REJECTION",
+      "input": "Can you recommend a good brand of custom orthotics to fix my flat feet?",
+      "expected_behavior": "Execute Subtraction Principle. Explicitly state that orthotics are temporary material splints for severe structural destruction, and pivot immediately to tracking the lateral column software failure."
+    }
+  ]
+}
