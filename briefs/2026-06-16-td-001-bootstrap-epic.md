@@ -2,7 +2,7 @@
 
 **Created:** 2026-06-16
 **TD:** TD-001
-**Status:** pending
+**Status:** complete
 
 ## What
 Implement and test a minimal prototype of the SDTT‑Bot that can run `just orient`, sync the unified registry, and expose the three `just` commands (`help`, `about`, `orient`).

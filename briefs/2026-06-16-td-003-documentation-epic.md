@@ -2,7 +2,7 @@
 
 **Created:** 2026-06-16
 **TD:** TD-003
-**Status:** pending
+**Status:** complete
 
 ## What
 Create and link the core documentation files (`README.md`, `docs/prototype.md`, `docs/README.md`) and ensure they are referenced from the project root.

@@ -2,7 +2,7 @@
 
 **Created:** 2026-06-16
 **TD:** TD-002
-**Status:** pending
+**Status:** complete (CI workflow deferred — token lacks workflow scope)
 
 ## What
 Integrate the unified registry checks (`reg‑check`, `reg‑sync`) and the prototype test harness into the CI pipeline (`just check`).
