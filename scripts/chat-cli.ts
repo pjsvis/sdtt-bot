@@ -36,24 +36,11 @@ function log(line: string) {
 }
 
 // ---------------------------------------------------------------------------
-// Disclaimer banner (shown once at session start)
+// Simple greeting — user leads from here
 // ---------------------------------------------------------------------------
-const disclaimer = `
-⚠️  DISCLAIMER — READ BEFORE PROCEEDING
-This system is not a qualified medical practitioner.
-Advice here is experimental and for information only.
-You make the final decision — do not take my word for it.
-If you are unsure, consult a qualified professional.
-`;
-console.log(disclaimer);
-log("SYSTEM: " + disclaimer.trim());
-
-// ---------------------------------------------------------------------------
-// Send the opening statement, then hand off to the bot for the conversation
-// ---------------------------------------------------------------------------
-const opening = "I'm going to ask you a few questions, then suggest you get down on the floor and do some very small movements. That might help. It might not. But talking it through might calm things down. I'm not a qualified practitioner — you make the final decision. Do not take my word for it.";
-console.log(`BOT: ${opening}\n`);
-log(`BOT: ${opening}`);
+const greeting = "Hello.";
+console.log(`BOT: ${greeting}\n`);
+log(`BOT: ${greeting}`);
 
 // Reset command – clears state file
 const rl = readline.createInterface({
